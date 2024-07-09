@@ -25,7 +25,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="hover:text-white transition-colors duration-300"
                 >
                   About
@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href={'/courses'}
                   className="hover:text-white transition-colors duration-300"
                 >
                   Courses
@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href={'/contact'}
                   className="hover:text-white transition-colors duration-300"
                 >
                   Contact
